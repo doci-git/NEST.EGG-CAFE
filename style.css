@@ -111,8 +111,8 @@ html {
     position: fixed;
     height: 50px;
     width: 45px;
-    background: darkorange;
-    border: 1px solid rgb(170, 94, 0);
+    background: #5c8e7e;
+    border: 1px solid #263f37;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -122,12 +122,14 @@ html {
     font-size: 30px;
     cursor: pointer;
     border-radius: 12px;
-    opacity: 0;
+    opacity: 1;
     pointer-events: none;
     transition: all 0.3s ease;
 }
-
-.scroll-up-btn.show {
+.scroll-up-btn a{
+    color: #001300;
+}
+.scroll-up-btn,.show {
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
@@ -541,7 +543,7 @@ section .title::after {
     text-align: center;
 }
 
-.slide-img {
+.slide-img { 
     height: 90%;
     width: 90%;
     object-fit:contain;
