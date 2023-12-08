@@ -122,7 +122,7 @@ html {
     font-size: 30px;
     cursor: pointer;
     border-radius: 12px;
-    opacity: o;
+    opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
 }
