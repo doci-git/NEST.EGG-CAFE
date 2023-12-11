@@ -109,8 +109,8 @@ html {
 
 .scroll-up-btn {
     position: fixed;
-    height: 50px;
-    width: 45px;
+    height: 45px;
+    width: 40px;
     background: #667e76;
     border: 1px solid #263f37;
     right: 30px;
