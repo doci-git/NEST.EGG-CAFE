@@ -1185,6 +1185,9 @@ footer span a:hover {
   .home .home-content .text-3 {
     font-size: 22px;
   }
+  .contact .contact-content .info .sub-title {
+  font-size: 15px;
+}
 }
 
 .modal-container {
