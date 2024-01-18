@@ -34,7 +34,6 @@ html {
 
 .max-width {
   max-width: 1300px;
-  padding: 0 80px;
   margin: auto;
 }
 
@@ -146,12 +145,26 @@ html {
   font-family: "Ubuntu", sans-serif;
 }
 
+.home .max-width .home-baner {
+padding: 20px;
+margin-bottom: 80px;
+text-align: center;
+background-color:#3d4c4752;
+
+}
+.home .max-width .home-baner i{
+    font-size: 25px;
+  color: darkorange;
+  
+}
+
 .home .max-width {
   margin: auto 0 auto 40px;
 }
 
 .home .home-content .text-1 {
   font-size: 22px;
+  font-weight: 500;
 }
 
 .home .home-content .text-2 {
@@ -172,7 +185,7 @@ html {
 
 .home .home-content a {
   display: inline-block;
-  background: #c0eadc;
+  background: #abcec2;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
@@ -213,7 +226,6 @@ section .title {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 60px;
   padding-bottom: 20px;
   font-family: "Ubuntu", sans-serif;
 }
@@ -545,11 +557,11 @@ section .title::after {
 }
 
 .slide h2 {
-  top: 5%;
+ 
   text-shadow: 2px 2px 4px;
   position: absolute;
   color: #001300;
-  margin: 28%;
+  
   font-size: 20px;
   font-family: "Noto Sans Mono", monospace;
 }
