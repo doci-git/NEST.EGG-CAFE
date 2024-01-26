@@ -904,6 +904,13 @@ footer span a:hover {
 .close {
   margin-left: 358px;
 }
+@media (min-width:690px) {
+  .prevBtn,
+.nextBtn {
+  padding: 20px;
+margin: 20px;}
+
+}
 
 @media (max-width: 947px) {
   .menu-btn {
